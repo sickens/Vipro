@@ -14,7 +14,7 @@ const float LmLPerSecond = 0.04;
 const float RmLPerSecond = 0.04;
 
 float Lspeed = LmLPerSecond*20;
-float Rspeed = LmLPerSecond*20;
+float Rspeed = RmLPerSecond*20;
 
 void setup()
 {
@@ -33,4 +33,5 @@ void loop()
 {
   Lstepper.runSpeed();
   Rstepper.runSpeed();
+  Lstepper.
 }

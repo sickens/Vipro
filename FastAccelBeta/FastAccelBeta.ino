@@ -28,7 +28,7 @@ void setup() {
       //stepper->setAutoEnable(true);
 
       Lstepper->setSpeedInHz(Lspeed);
-      Lstepper->setAcceleration(0);
+      Lstepper->setAcceleration(INT32_MAX);
       Lstepper->runForward();   
    }
 
@@ -40,7 +40,7 @@ void setup() {
       //stepper->setAutoEnable(true);
 
       Rstepper->setSpeedInHz(Rspeed);
-      Rstepper->setAcceleration(0);
+      Rstepper->setAcceleration(INT32_MAX);
       Rstepper->runForward();
    }
 }
